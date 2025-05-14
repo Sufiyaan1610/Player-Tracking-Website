@@ -25,11 +25,14 @@ export default function Navbar() {
               <span className="ml-2 text-2xl font-bold text-yellow-400">Redback Operations</span>
             </Link>
           </div>
-          
+
           <div className="hidden md:block">
             <div className="flex items-center space-x-8">
               <Link href="/products" className="text-white hover:text-yellow-400 transition-colors">
                 PRODUCTS
+              </Link>
+              <Link href="/player-dashboard" className="text-white hover:text-yellow-400 transition-colors">
+                PLAYERS
               </Link>
               <Link href="/sports" className="text-white hover:text-yellow-400 transition-colors">
                 SPORTS

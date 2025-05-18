@@ -1,0 +1,119 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ajoberstar.grgit",
+    "module": "grgit-core",
+    "version": "4.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "fb3426qspzf4pjx3w37djvry4e"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.jgit",
+          "module": "org.eclipse.jgit",
+          "version": {
+            "requires": "5.13.0.202109080827-r"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "grgit-core-4.1.1.jar",
+          "url": "grgit-core-4.1.1.jar",
+          "size": 268397,
+          "sha512": "b1137c44f791bad962c7d1fde2dd54f6a2564097da111bae5d4764497e3679a8243728666c3947f6dcb464e2b6ae0592889db9d4d69b407c4694dc01de3c76e1",
+          "sha256": "c626aa433d6d13f245bd2c865bf46f1aa3457540bfd05aa84474b3a1ee4c2319",
+          "sha1": "ea5aeddc0506db505e9940a1bda92d55db8c9ae0",
+          "md5": "f8c3426d2a8f2d16652d72ecb8ffe452"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.jgit",
+          "module": "org.eclipse.jgit",
+          "version": {
+            "requires": "5.13.0.202109080827-r"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "grgit-core-4.1.1.jar",
+          "url": "grgit-core-4.1.1.jar",
+          "size": 268397,
+          "sha512": "b1137c44f791bad962c7d1fde2dd54f6a2564097da111bae5d4764497e3679a8243728666c3947f6dcb464e2b6ae0592889db9d4d69b407c4694dc01de3c76e1",
+          "sha256": "c626aa433d6d13f245bd2c865bf46f1aa3457540bfd05aa84474b3a1ee4c2319",
+          "sha1": "ea5aeddc0506db505e9940a1bda92d55db8c9ae0",
+          "md5": "f8c3426d2a8f2d16652d72ecb8ffe452"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grgit-core-4.1.1-sources.jar",
+          "url": "grgit-core-4.1.1-sources.jar",
+          "size": 50408,
+          "sha512": "2d7072260b434c8d53bd5104762f8926b2008d22c9827d89d777fd3e0b8ad1e8cfaf9d7cbdf234c9320130d2687aad0fa0efaba51e725c94127e63a151769b56",
+          "sha256": "6d17488dd10ecf08a4fab5d0348fbdf3d67783cc467624c8378bbec5a357e9bc",
+          "sha1": "69f53dc5c4e02af57acc7de2e80bf6f8647f9bce",
+          "md5": "0ba3a5fa2a13f67f00c8f04bcebd2717"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grgit-core-4.1.1-javadoc.jar",
+          "url": "grgit-core-4.1.1-javadoc.jar",
+          "size": 46696,
+          "sha512": "4c24acad86c0cb0c8dafe85f85b2ce014059f2e116185c073f0d3701570b46a0f9a0d58fe3444d1de91ffab6bf25ecbea8ba27bfd76c5db176928ebe187a95d1",
+          "sha256": "fd9764b64b56ab5a992cfac0b033637e2d38e2cdcab2813a4b06f9304020eec8",
+          "sha1": "dd806e74b8f5bc2b69187f55363728080397002e",
+          "md5": "7864647da2fec51ec9ea8074663577da"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+﻿08/05/2024 16:18:12 Australian Eastern Standard Time : Information : Local timezone is (UTC+10:00) Australian Eastern Time (Melbourne)
+08/05/2024 16:18:12 Australian Eastern Standard Time : Information : Added local RPC method "mergeCoverageFiles" -> Microsoft.VisualStudio.CoverageServices.Report.ReportService.MergeCoverageFilesAsync(String, String[], MergeOperation, CancellationToken) (Microsoft.VisualStudio.CoverageServices.Report.ReportService)
+08/05/2024 16:18:12 Australian Eastern Standard Time : Information : Added local RPC method "getReport" -> Microsoft.VisualStudio.CoverageServices.Report.ReportService.GetReportAsync(String, CancellationToken) (Microsoft.VisualStudio.CoverageServices.Report.ReportService)
+08/05/2024 16:18:12 Australian Eastern Standard Time : Information : Added local RPC method "mergeCoverageFiles" -> Microsoft.VisualStudio.CoverageServices.Report.ReportService.MergeCoverageFilesAsync(String, String[], MergeOperation, CancellationToken) (Microsoft.VisualStudio.CoverageServices.Report.ReportService)
+08/05/2024 16:18:12 Australian Eastern Standard Time : Information : Added local RPC method "getReport" -> Microsoft.VisualStudio.CoverageServices.Report.ReportService.GetReportAsync(String, CancellationToken) (Microsoft.VisualStudio.CoverageServices.Report.ReportService)
+08/05/2024 16:18:12 Australian Eastern Standard Time: Information : 3 :Listening started.
+08/05/2024 16:39:43 Australian Eastern Standard Time : Information : Microsoft.CodeCoverage.VSCode.ReportService read: end of stream
+08/05/2024 16:39:43 Australian Eastern Standard Time: Information : 13 :Connection closing (RemotePartyTerminated: Reached end of stream.). 
+08/05/2024 16:39:43 Australian Eastern Standard Time : Information : Waiting for 'Microsoft.CodeCoverage.VSCode.ReportService' instance to complete its completionTask.
+08/05/2024 16:39:43 Australian Eastern Standard Time : Information : Disposed 'Microsoft.CodeCoverage.VSCode.ReportService' via 'completionTask' method.
+08/05/2024 16:39:43 Australian Eastern Standard Time : Information : Finishing shutting down service: Microsoft.CodeCoverage.VSCode.ReportService.

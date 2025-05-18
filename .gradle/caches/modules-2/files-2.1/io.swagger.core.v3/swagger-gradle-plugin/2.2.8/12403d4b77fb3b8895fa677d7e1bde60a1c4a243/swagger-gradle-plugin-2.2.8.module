@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.swagger.core.v3",
+    "module": "swagger-gradle-plugin",
+    "version": "2.2.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5.1",
+      "buildId": "olwxxdwza5d5tomrd6jbizmlfe"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "rejects": [
+              "[2.+,2.17.1)"
+            ]
+          },
+          "reason": "Cannot publish a plugin which resolves a vulnerable Log4j version (https://blog.gradle.org/log4j-vulnerability). Make sure to update your configuration so it does not happen."
+        }
+      ],
+      "files": [
+        {
+          "name": "swagger-gradle-plugin-2.2.8.jar",
+          "url": "swagger-gradle-plugin-2.2.8.jar",
+          "size": 9990,
+          "sha512": "c9bab5d80a87f314ff829efeca4dae5fd976f32f4b0b40a702442ad57243a76d45391f064ccbef22670b6f8f29a9fbae87fb680e5f9098b22a94ab25065f341b",
+          "sha256": "a1aa2dda2c26cb0a899dd0335b80ee569bd5620a4531ed090dd270c8c2867aa1",
+          "sha1": "1db85157d2d54ddd98405a8bf1e5cd2872899a38",
+          "md5": "53793179f5e8dd7862a24e8add9738d9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.7"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "rejects": [
+              "[2.+,2.17.1)"
+            ]
+          },
+          "reason": "Cannot publish a plugin which resolves a vulnerable Log4j version (https://blog.gradle.org/log4j-vulnerability). Make sure to update your configuration so it does not happen."
+        }
+      ],
+      "files": [
+        {
+          "name": "swagger-gradle-plugin-2.2.8.jar",
+          "url": "swagger-gradle-plugin-2.2.8.jar",
+          "size": 9990,
+          "sha512": "c9bab5d80a87f314ff829efeca4dae5fd976f32f4b0b40a702442ad57243a76d45391f064ccbef22670b6f8f29a9fbae87fb680e5f9098b22a94ab25065f341b",
+          "sha256": "a1aa2dda2c26cb0a899dd0335b80ee569bd5620a4531ed090dd270c8c2867aa1",
+          "sha1": "1db85157d2d54ddd98405a8bf1e5cd2872899a38",
+          "md5": "53793179f5e8dd7862a24e8add9738d9"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.opentelemetry.proto",
+    "module": "opentelemetry-proto",
+    "version": "1.0.0-alpha",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java",
+          "version": {
+            "requires": "3.23.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-proto-1.0.0-alpha.jar",
+          "url": "opentelemetry-proto-1.0.0-alpha.jar",
+          "size": 656134,
+          "sha512": "6603e3dd9f2c12857a47cffde530b6587d354f1d6fafea46a536aa2da5aa3ca6feec9d66a24734670514fb8f0adea1597f6fb675e4392054c9b3a0b34e532a7e",
+          "sha256": "b2a21e986b0d41193f8514c213ed79955afd17c8cdfe7bbb9e3d3e1a4512b56a",
+          "sha1": "aef3ea96207d6199d97f3cecd1674663894eade1",
+          "md5": "7248b5cc8e1e2b8e22ae376e096bc0eb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.protobuf",
+          "module": "protobuf-java",
+          "version": {
+            "requires": "3.23.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-proto-1.0.0-alpha.jar",
+          "url": "opentelemetry-proto-1.0.0-alpha.jar",
+          "size": 656134,
+          "sha512": "6603e3dd9f2c12857a47cffde530b6587d354f1d6fafea46a536aa2da5aa3ca6feec9d66a24734670514fb8f0adea1597f6fb675e4392054c9b3a0b34e532a7e",
+          "sha256": "b2a21e986b0d41193f8514c213ed79955afd17c8cdfe7bbb9e3d3e1a4512b56a",
+          "sha1": "aef3ea96207d6199d97f3cecd1674663894eade1",
+          "md5": "7248b5cc8e1e2b8e22ae376e096bc0eb"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-proto-1.0.0-alpha-javadoc.jar",
+          "url": "opentelemetry-proto-1.0.0-alpha-javadoc.jar",
+          "size": 1019370,
+          "sha512": "db2bebc285e86703437a5d3dbce2d9f3c0527591ac6a81ff6db813198cacd0737321d9778e84afd4eb9706b540e43a84d670bfa4d49b41673788e9d158ed5b89",
+          "sha256": "cfaee5c3a7295df453d9af23f7da100483115dbff247afc65eeb7b42f9aa1109",
+          "sha1": "1936934481ce70fe00c2795a0ce7798095ee8a70",
+          "md5": "bf9a3f6c87d1999ad8bc7f082333cf15"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-proto-1.0.0-alpha-sources.jar",
+          "url": "opentelemetry-proto-1.0.0-alpha-sources.jar",
+          "size": 295566,
+          "sha512": "81fcb9f9ec3254979c30468aabf039fd575d15601b4b914c3d354f4ebc1a54c162d19c26b8998d158742a0208da3284ad8682c0047a4aa1b0bd865fd02c6e61a",
+          "sha256": "e0f204b2675deab4ec4bbcf7190cc14f58de7a63b4b595f6047cb69a373c9b19",
+          "sha1": "2af3ef7f49961734b67c86911f99e037184670eb",
+          "md5": "c5a73bae2f9bf1439f4cc256ce0aac82"
+        }
+      ]
+    }
+  ]
+}

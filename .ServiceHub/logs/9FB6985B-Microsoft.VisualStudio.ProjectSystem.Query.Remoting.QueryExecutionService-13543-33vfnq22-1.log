@@ -1,0 +1,56 @@
+﻿08/08/2024 18:22:59 Australian Eastern Standard Time : Information : Local timezone is (UTC+10:00) Australian Eastern Time (Melbourne)
+08/08/2024 18:22:59 Australian Eastern Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService read: Content-Length: 688
+
+{"traceparent":"00-01b9a35cce09284db6fc8cbbd32de0b1-ca5e393f7634f34d-00","jsonrpc":"2.0","id":2,"method":"SubscribeQueryResultsAsync","params":["{\"context\":\"Projects\",\"query\":{\"$properties\":[\"Id\",\"Name\",\"Path\",\"Guid\",\"ActiveConfigurations\"],\"ActiveConfigurations\":{\"$properties\":[\"Id\",\"Name\",\"ConfigurationName\",\"PlatformName\",\"Capabilities\",\"OutputGroups\"],\"OutputGroups\":{\"$properties\":[\"Id\",\"Name\",\"Outputs\"],\"Outputs\":{\"$properties\":[\"Name\",\"FinalOutputPath\",\"IsKeyOutput\"]},\"$filter\":{\"OutputGroupsByName\":[[\"Built\"]]}}},\"$filter\":{\"ProjectsByCapabilities\":[\"TestContainer\"]}}}",{"__jsonrpc_marshaled":1,"handle":0}]}
+08/08/2024 18:22:59 Australian Eastern Standard Time : Information : Added local RPC method "ExecuteQueryAsync" -> Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim.ExecuteQueryAsync(String, CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim)
+08/08/2024 18:22:59 Australian Eastern Standard Time : Information : Added local RPC method "ExecuteRemoteExecutableAsync" -> Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim.ExecuteRemoteExecutableAsync(String, CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim)
+08/08/2024 18:22:59 Australian Eastern Standard Time : Information : Added local RPC method "GetServiceIdentityAsync" -> Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim.GetServiceIdentityAsync(CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim)
+08/08/2024 18:22:59 Australian Eastern Standard Time : Information : Added local RPC method "QueryAsync" -> Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim.QueryAsync(String, CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim)
+08/08/2024 18:22:59 Australian Eastern Standard Time : Information : Added local RPC method "SubscribeQueryResultsAsync" -> Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim.SubscribeQueryResultsAsync(String, IObserver`1, CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim)
+08/08/2024 18:22:59 Australian Eastern Standard Time : Information : Added local RPC method "TrackQueryUpdatesAsync" -> Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim.TrackQueryUpdatesAsync(String, IObserver`1, CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim)
+08/08/2024 18:22:59 Australian Eastern Standard Time : Information : Added local RPC method "Dispose" -> Microsoft.VisualStudio.ProjectSystem.OnceInitializedOnceDisposedAsync.Dispose() (Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim)
+08/08/2024 18:22:59 Australian Eastern Standard Time : Information : Added local RPC method "DisposeAsync" -> Microsoft.VisualStudio.ProjectSystem.OnceInitializedOnceDisposedAsync.DisposeAsync() (Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim)
+08/08/2024 18:22:59 Australian Eastern Standard Time : Information : Added local RPC method "ExecuteQuery" -> Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim.ExecuteQueryAsync(String, CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim)
+08/08/2024 18:22:59 Australian Eastern Standard Time : Information : Added local RPC method "ExecuteRemoteExecutable" -> Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim.ExecuteRemoteExecutableAsync(String, CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim)
+08/08/2024 18:22:59 Australian Eastern Standard Time : Information : Added local RPC method "GetServiceIdentity" -> Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim.GetServiceIdentityAsync(CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim)
+08/08/2024 18:22:59 Australian Eastern Standard Time : Information : Added local RPC method "Query" -> Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim.QueryAsync(String, CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim)
+08/08/2024 18:22:59 Australian Eastern Standard Time : Information : Added local RPC method "SubscribeQueryResults" -> Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim.SubscribeQueryResultsAsync(String, IObserver`1, CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim)
+08/08/2024 18:22:59 Australian Eastern Standard Time : Information : Added local RPC method "TrackQueryUpdates" -> Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim.TrackQueryUpdatesAsync(String, IObserver`1, CancellationToken) (Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim)
+08/08/2024 18:22:59 Australian Eastern Standard Time: Information : 3 :Listening started.
+08/08/2024 18:22:59 Australian Eastern Standard Time: Information : 7 :{"id":2,"method":"SubscribeQueryResultsAsync"}
+08/08/2024 18:22:59 Australian Eastern Standard Time: Information : 6 :Received request "2" for method "SubscribeQueryResultsAsync".
+08/08/2024 18:22:59 Australian Eastern Standard Time: Information : 9 :Invoking Microsoft.VisualStudio.ProjectSystem.Server.QueryExecutionServiceFactory+QueryExecutionServiceShim.SubscribeQueryResultsAsync(String, IObserver`1, CancellationToken)
+08/08/2024 18:22:59 Australian Eastern Standard Time : Transfer : Transfer, relatedActivityId=1b10cf15-487f-493d-96a7-0e59e2f2a1c5
+08/08/2024 18:22:59 Australian Eastern Standard Time : Start : SubscribeQueryResultsAsync
+08/08/2024 18:22:59 Australian Eastern Standard Time : Stop : SubscribeQueryResultsAsync
+08/08/2024 18:22:59 Australian Eastern Standard Time : Transfer : Transfer, relatedActivityId=5ca3b901-09ce-4d28-b6fc-8cbbd32de0b1
+08/08/2024 18:22:59 Australian Eastern Standard Time : Information : Added local RPC method "$/invokeProxy/0/dispose" -> System.IDisposable.Dispose() (Microsoft.VisualStudio.ProjectSystem.AsyncSubscribe`1[System.String])
+08/08/2024 18:22:59 Australian Eastern Standard Time: Information : 8 :{"id":2}
+08/08/2024 18:22:59 Australian Eastern Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService write: Content-Length: 70
+
+{"jsonrpc":"2.0","id":2,"result":{"__jsonrpc_marshaled":1,"handle":0}}
+08/08/2024 18:23:00 Australian Eastern Standard Time: Information : 8 :{"id":null,"method":"$/invokeProxy/0/onNext"}
+08/08/2024 18:23:00 Australian Eastern Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService write: Content-Length: 265
+
+{"traceparent":"00-15cf101b7f483d4996a70e59e2f2a1c5-299b4dc8d403e249-01","jsonrpc":"2.0","method":"$/invokeProxy/0/onNext","params":["{\"Versions\":{\"Workspace:Version\":1,\"ProjectsStateUpdates:Version\":0,\"CpsProject:0:APL2003.Debug|AnyCPU\":1},\"Items\":[]}"]}
+08/08/2024 18:40:59 Australian Eastern Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService read: Content-Length: 64
+
+{"jsonrpc":"2.0","method":"$/invokeProxy/0/dispose","params":[]}
+08/08/2024 18:40:59 Australian Eastern Standard Time: Information : 7 :{"id":null,"method":"$/invokeProxy/0/dispose"}
+08/08/2024 18:40:59 Australian Eastern Standard Time: Information : 6 :Received notification for method "$/invokeProxy/0/dispose".
+08/08/2024 18:40:59 Australian Eastern Standard Time: Information : 9 :Invoking System.IDisposable.Dispose()
+08/08/2024 18:40:59 Australian Eastern Standard Time : Start : $/invokeProxy/0/dispose
+08/08/2024 18:40:59 Australian Eastern Standard Time : Stop : $/invokeProxy/0/dispose
+08/08/2024 18:40:59 Australian Eastern Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService read: Content-Length: 97
+
+{"jsonrpc":"2.0","method":"$/releaseMarshaledObject","params":{"handle":0,"ownedBySender":false}}
+08/08/2024 18:40:59 Australian Eastern Standard Time: Information : 7 :{"id":null,"method":"$/releaseMarshaledObject"}
+08/08/2024 18:40:59 Australian Eastern Standard Time: Information : 6 :Received notification for method "$/releaseMarshaledObject".
+08/08/2024 18:40:59 Australian Eastern Standard Time: Information : 9 :Invoking StreamJsonRpc.Reflection.MessageFormatterRpcMarshaledContextTracker.ReleaseMarshaledObject(Int64, Boolean)
+08/08/2024 18:40:59 Australian Eastern Standard Time : Start : $/releaseMarshaledObject
+08/08/2024 18:40:59 Australian Eastern Standard Time : Stop : $/releaseMarshaledObject
+08/08/2024 18:40:59 Australian Eastern Standard Time : Information : Waiting for 'Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService' instance to complete its completionTask.
+08/08/2024 18:40:59 Australian Eastern Standard Time : Information : Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService read: end of stream
+08/08/2024 18:40:59 Australian Eastern Standard Time: Information : 13 :Connection closing (RemotePartyTerminated: Reached end of stream.). 
+08/08/2024 18:40:59 Australian Eastern Standard Time : Information : Disposed 'Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService' via 'completionTask' method.
+08/08/2024 18:40:59 Australian Eastern Standard Time : Information : Finishing shutting down service: Microsoft.VisualStudio.ProjectSystem.Query.Remoting.QueryExecutionService.

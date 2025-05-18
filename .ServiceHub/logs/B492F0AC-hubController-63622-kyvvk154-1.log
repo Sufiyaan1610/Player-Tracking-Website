@@ -1,0 +1,33 @@
+﻿08/06/2024 17:00:42 Australian Eastern Standard Time : Information : Local timezone is (UTC+10:00) Australian Eastern Time (Melbourne)
+08/06/2024 17:00:42 Australian Eastern Standard Time : Information : Started controller with command line /Users/dori/.vscode/extensions/ms-dotnettools.csdevkit-1.8.14-darwin-arm64/components/vs-green-server/platforms/darwin-arm64/node_modules/@microsoft/servicehub-controller-net60.darwin-arm64/Microsoft.ServiceHub.Controller 26bb85efea /ControllerCooldownTimeout:30000 /TelemetrySession:{"TelemetryLevel":"all","IsOptedIn":false,"HostName":"Default","AppInsightsInstrumentationKey":null,"AsimovInstrumentationKey":null,"CollectorApiKey":"0c6ae279ed8443289764825290e4f9e2-1a736e7c-1324-4338-be46-fc2a58ae4d14-7255","AppId":1010,"UserId":"90598e49-9c77-4e17-b70b-1c215e358691","Id":"2fb8eb2b-6e1b-4f53-b052-5a7429c2bd161722927637989","ProcessStartTime":133674012406475450,"SkuName":null,"VSExeVersion":null,"BucketFiltersToEnableWatsonForFaults":[],"BucketFiltersToAddDumpsToFaults":[]}
+08/06/2024 17:00:42 Australian Eastern Standard Time : Information : Acquiring single controller instance mutex with name '-1664885354-ServiceHubControllerSingleInstanceMutex'
+08/06/2024 17:00:42 Australian Eastern Standard Time : Information : Acquired single controller instance mutex with name '-1664885354-ServiceHubControllerSingleInstanceMutex'
+08/06/2024 17:00:42 Australian Eastern Standard Time : Warning : Invalid 'TelemetrySession' was passed as an argument: {"TelemetryLevel":"all","IsOptedIn":false,"HostName":"Default","AppInsightsInstrumentationKey":null,"AsimovInstrumentationKey":null,"CollectorApiKey":"0c6ae279ed8443289764825290e4f9e2-1a736e7c-1324-4338-be46-fc2a58ae4d14-7255","AppId":1010,"UserId":"90598e49-9c77-4e17-b70b-1c215e358691","Id":"2fb8eb2b-6e1b-4f53-b052-5a7429c2bd161722927637989","ProcessStartTime":133674012406475450,"SkuName":null,"VSExeVersion":null,"BucketFiltersToEnableWatsonForFaults":[],"BucketFiltersToAddDumpsToFaults":[]}.
+08/06/2024 17:00:42 Australian Eastern Standard Time : Information : Controller cooldown timeout is set to 30000ms
+08/06/2024 17:00:42 Australian Eastern Standard Time : Information : Starting server 'hubController' at 'net.pipe://26bb85efea' (at '/Users/dori/.ServiceHub/26bb85efea/26bb85efea').
+08/06/2024 17:00:42 Australian Eastern Standard Time : Information : Successfully started server on pipe 26bb85efea
+08/06/2024 17:00:42 Australian Eastern Standard Time : Information : Triggered controller shutdown timer process.
+08/06/2024 17:00:42 Australian Eastern Standard Time : Information : Client connected to controller
+08/06/2024 17:00:42 Australian Eastern Standard Time : Information : Client connected to controller
+08/06/2024 17:00:42 Australian Eastern Standard Time : Information : Client connected to controller
+08/06/2024 17:00:42 Australian Eastern Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+08/06/2024 17:00:42 Australian Eastern Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+08/06/2024 17:00:42 Australian Eastern Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":63473}]}
+08/06/2024 17:00:42 Australian Eastern Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+08/06/2024 17:00:42 Australian Eastern Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+08/06/2024 17:00:42 Australian Eastern Standard Time : Information : Starting server 'clientWatch' at 'net.pipe://636227F316' (at '/Users/dori/.ServiceHub/26bb85efea/636227F316').
+08/06/2024 17:00:42 Australian Eastern Standard Time : Information : Microsoft.ServiceHub.Controller.HubController write: Content-Length: 440
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://636227F316","ControllerConfig":{"Executable":"/Users/dori/.vscode/extensions/ms-dotnettools.csdevkit-1.8.14-darwin-arm64/components/vs-green-server/platforms/darwin-arm64/node_modules/@microsoft/servicehub-controller-net60.darwin-arm64/Microsoft.ServiceHub.Controller","Args":["26bb85efea"],"PipeName":"26bb85efea"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+08/06/2024 17:00:42 Australian Eastern Standard Time : Information : External client connect to client watch
+08/06/2024 17:00:42 Australian Eastern Standard Time : Information : Microsoft.ServiceHub.Controller.HubController read: end of stream
+08/06/2024 17:00:42 Australian Eastern Standard Time : Information : JsonRpc disconnected due to RemotePartyTerminated. Reached end of stream.
+08/06/2024 17:00:42 Australian Eastern Standard Time : Information : External client disconnected from client watch.
+08/06/2024 17:00:42 Australian Eastern Standard Time : Information : Starting fast shutdown
+08/06/2024 17:00:42 Australian Eastern Standard Time : Information : Stopping the location service server.
+08/06/2024 17:00:42 Australian Eastern Standard Time : Information : Exiting hub controller.
+08/06/2024 17:00:42 Australian Eastern Standard Time : Information : Releasing single controller instance mutex.
+08/06/2024 17:00:42 Australian Eastern Standard Time : Information : All hosts have exited.
+08/06/2024 17:00:42 Australian Eastern Standard Time : Information : Controller terminating with exit code '0'.

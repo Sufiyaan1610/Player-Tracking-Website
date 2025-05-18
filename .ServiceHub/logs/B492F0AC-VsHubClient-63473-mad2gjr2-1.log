@@ -1,0 +1,10 @@
+﻿08/06/2024 17:00:41 Australian Eastern Standard Time : Information : Local timezone is (UTC+10:00) Eastern Australia Time (Melbourne)
+08/06/2024 17:00:42 Australian Eastern Standard Time : Information : VsHubClient-hubController write: Content-Length: 109
+
+{"jsonrpc":"2.0","id":2,"method":"UpdateClientInfoAsync","params":[{"clientName":"VsHubClient","pid":63473}]}
+08/06/2024 17:00:42 Australian Eastern Standard Time : Information : VsHubClient-hubController read: Content-Length: 440
+
+{"jsonrpc":"2.0","id":2,"result":{"ClientWatchServerName":"net.pipe://636227F316","ControllerConfig":{"Executable":"/Users/dori/.vscode/extensions/ms-dotnettools.csdevkit-1.8.14-darwin-arm64/components/vs-green-server/platforms/darwin-arm64/node_modules/@microsoft/servicehub-controller-net60.darwin-arm64/Microsoft.ServiceHub.Controller","Args":["26bb85efea"],"PipeName":"26bb85efea"},"HostsConfig":{"RootDir":".","AppConfigFallback":""}}}
+08/06/2024 17:00:42 Australian Eastern Standard Time : Information : Connected to Hub Controller's client watch 'net.pipe://636227F316
+08/06/2024 17:00:42 Australian Eastern Standard Time : Information : VsHubClient-hubController JSON RPC has been disposed
+08/06/2024 17:00:42 Australian Eastern Standard Time : Information : VsHubClient-hubController read: end of stream

@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.fasterxml.jackson.core",
+    "module": "jackson-core",
+    "version": "2.16.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "maven": {
+      "version": "3.9.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.16.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "jackson-core-2.16.2.jar",
+          "url": "jackson-core-2.16.2.jar",
+          "size": 582784,
+          "sha512": "af7b5ae2cc984363b240c52f4c9b0a4c6faf4523f04d9c19c05a5a76a0c2c79375abcb696f0439fe757fceff7c62b0db26250bc96535cfae7fa00be1754a9f9",
+          "sha256": "4f43e2f1430b2d2413e8e5a3d79138e57e891d6a961b18c28ac90859639d8664",
+          "sha1": "b4f588bf070f77b604c645a7d60b71eae2e6ea09",
+          "md5": "64594fea116c698c9612ffba8e94d7b4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.16.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "jackson-core-2.16.2.jar",
+          "url": "jackson-core-2.16.2.jar",
+          "size": 582784,
+          "sha512": "af7b5ae2cc984363b240c52f4c9b0a4c6faf4523f04d9c19c05a5a76a0c2c79375abcb696f0439fe757fceff7c62b0db26250bc96535cfae7fa00be1754a9f9",
+          "sha256": "4f43e2f1430b2d2413e8e5a3d79138e57e891d6a961b18c28ac90859639d8664",
+          "sha1": "b4f588bf070f77b604c645a7d60b71eae2e6ea09",
+          "md5": "64594fea116c698c9612ffba8e94d7b4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.fasterxml.jackson.module",
+    "module": "jackson-module-jaxb-annotations",
+    "version": "2.16.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "maven": {
+      "version": "3.9.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.16.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.16.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.16.2"
+          }
+        },
+        {
+          "group": "jakarta.xml.bind",
+          "module": "jakarta.xml.bind-api",
+          "version": {
+            "requires": "2.3.3"
+          }
+        },
+        {
+          "group": "jakarta.activation",
+          "module": "jakarta.activation-api",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.16.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "jackson-module-jaxb-annotations-2.16.2.jar",
+          "url": "jackson-module-jaxb-annotations-2.16.2.jar",
+          "size": 36124,
+          "sha512": "9b6f157d57c1a1e0953ffc0e9583ca9153415051aad0a22e29c9346618bf49cefed670c0f9a7582d4aadf0afdd80a46ba128c74949ca9419d85b77f9d9ef5020",
+          "sha256": "c01345492efb641f905ebc2af8751a5bac9edb44bc900c2cbce12af133b99545",
+          "sha1": "d4df5fc94f0c97af54d0cb2aa93e8c8ade9eedb8",
+          "md5": "c485bde85eccc313a4fae9aa15e56e97"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.16.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.16.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.16.2"
+          }
+        },
+        {
+          "group": "jakarta.xml.bind",
+          "module": "jakarta.xml.bind-api",
+          "version": {
+            "requires": "2.3.3"
+          }
+        },
+        {
+          "group": "jakarta.activation",
+          "module": "jakarta.activation-api",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson",
+          "module": "jackson-bom",
+          "version": {
+            "requires": "2.16.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "jackson-module-jaxb-annotations-2.16.2.jar",
+          "url": "jackson-module-jaxb-annotations-2.16.2.jar",
+          "size": 36124,
+          "sha512": "9b6f157d57c1a1e0953ffc0e9583ca9153415051aad0a22e29c9346618bf49cefed670c0f9a7582d4aadf0afdd80a46ba128c74949ca9419d85b77f9d9ef5020",
+          "sha256": "c01345492efb641f905ebc2af8751a5bac9edb44bc900c2cbce12af133b99545",
+          "sha1": "d4df5fc94f0c97af54d0cb2aa93e8c8ade9eedb8",
+          "md5": "c485bde85eccc313a4fae9aa15e56e97"
+        }
+      ]
+    }
+  ]
+}

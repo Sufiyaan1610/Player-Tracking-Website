@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.nosphere.apache",
+    "module": "creadur-rat-gradle",
+    "version": "0.8.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "creadur-rat-gradle-0.8.1.jar",
+          "url": "creadur-rat-gradle-0.8.1.jar",
+          "size": 65488,
+          "sha512": "397c3257c5448c26304b312212f6da1649ad15e52ce0419c5ba647f8a68864707a0c8071fa9860c28aa9d626d66c8faf2d5f576e693f9d01b0f71eeeb84b57fb",
+          "sha256": "c1a58cbbe3d0a5e207cd90e79a9e22c9eb01d9e77f7313f4f5aa7d9e478a0550",
+          "sha1": "232275d264ea02061209f8c6ae0a25b8b4a53ab0",
+          "md5": "a9aa172286e141ec377521a2dca566d1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "creadur-rat-gradle-0.8.1.jar",
+          "url": "creadur-rat-gradle-0.8.1.jar",
+          "size": 65488,
+          "sha512": "397c3257c5448c26304b312212f6da1649ad15e52ce0419c5ba647f8a68864707a0c8071fa9860c28aa9d626d66c8faf2d5f576e693f9d01b0f71eeeb84b57fb",
+          "sha256": "c1a58cbbe3d0a5e207cd90e79a9e22c9eb01d9e77f7313f4f5aa7d9e478a0550",
+          "sha1": "232275d264ea02061209f8c6ae0a25b8b4a53ab0",
+          "md5": "a9aa172286e141ec377521a2dca566d1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "creadur-rat-gradle-0.8.1-sources.jar",
+          "url": "creadur-rat-gradle-0.8.1-sources.jar",
+          "size": 20623,
+          "sha512": "ef4789e16d913c19f0aa9a7ff0e170b31064b6ec33d1154a54d4b12da2429fc080286fdeebd0640855c3c7a566ad8a93e400cb7b6d78ac5dd10c8ca91de2c3f2",
+          "sha256": "791c05e3fb76f333294fe84644cf3344483b36014a56d7d20cdb9fb3a25d14ed",
+          "sha1": "002c741798bbf58549e19e5f2f1ad9269ba0dc3a",
+          "md5": "1fc59cf244adf45ddba46fc210c88ecb"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "creadur-rat-gradle-0.8.1-javadoc.jar",
+          "url": "creadur-rat-gradle-0.8.1-javadoc.jar",
+          "size": 261,
+          "sha512": "3a1bca0bfc5053206c36a14bc1c555f4d8fa532c19db0401e736280cecfc223e93adf208d045e7229715f0c2ed9588613f3c99b183fbbc07bc24f8f54f821104",
+          "sha256": "df20bbd0d110644886e3af255dc827da23dfb337cfee288bdf5f17574d484ef3",
+          "sha1": "af6073bb186e1362550c65812993747a0b0ab578",
+          "md5": "b4664548979219085f884c648966d285"
+        }
+      ]
+    }
+  ]
+}

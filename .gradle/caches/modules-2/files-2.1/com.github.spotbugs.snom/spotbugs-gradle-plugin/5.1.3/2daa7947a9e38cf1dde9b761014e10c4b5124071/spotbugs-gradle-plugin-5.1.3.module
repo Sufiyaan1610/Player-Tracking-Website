@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.spotbugs.snom",
+    "module": "spotbugs-gradle-plugin",
+    "version": "5.1.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "spotbugs-gradle-plugin-5.1.3.jar",
+          "url": "spotbugs-gradle-plugin-5.1.3.jar",
+          "size": 84511,
+          "sha512": "02ce9fa9264c5acef25ecd066b3e0578e711bd260da355b8ca811931a86a90888047f6d4e35f1bae3db5976c899567378c6f9c823e607da4f8a8ca4ffef86279",
+          "sha256": "44073628afdf223c6f4d27e3b1c82181214241137fc490ef4465937f86748537",
+          "sha1": "d964e03ef471838019a910f0f2b7d767200979b2",
+          "md5": "209016a99752d57af970a9b2d5fc4983"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spotbugs-gradle-plugin-5.1.3.jar",
+          "url": "spotbugs-gradle-plugin-5.1.3.jar",
+          "size": 84511,
+          "sha512": "02ce9fa9264c5acef25ecd066b3e0578e711bd260da355b8ca811931a86a90888047f6d4e35f1bae3db5976c899567378c6f9c823e607da4f8a8ca4ffef86279",
+          "sha256": "44073628afdf223c6f4d27e3b1c82181214241137fc490ef4465937f86748537",
+          "sha1": "d964e03ef471838019a910f0f2b7d767200979b2",
+          "md5": "209016a99752d57af970a9b2d5fc4983"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spotbugs-gradle-plugin-5.1.3-javadoc.jar",
+          "url": "spotbugs-gradle-plugin-5.1.3-javadoc.jar",
+          "size": 352169,
+          "sha512": "6fea367ca415da73344abb0c1df36209f704026096487d5a0e823553f8ffc29bcc483f5c0e567255ca46ea2b4185174ce82be962ef69ca6c17437f077b28074a",
+          "sha256": "801753266852784f6cfb86292fee555dd6152e64f9a3439504658d99aa4f36c1",
+          "sha1": "6f380ca02f3c084f3dec0a8b11302ccc6a2a6256",
+          "md5": "1602e94037b01451e460658078e8e603"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spotbugs-gradle-plugin-5.1.3-sources.jar",
+          "url": "spotbugs-gradle-plugin-5.1.3-sources.jar",
+          "size": 33601,
+          "sha512": "ad38eeb3e3763aa360d68da0c8fde7e3c069dab87b93c48e89d3b446b52c5f2aac6398a489ca4dd11e10f936375166f28e70e3c6733128ca43cf03a603128005",
+          "sha256": "6c46e350f63b382df92851d9e7693d43bbb496f4c7d807bc25261fad25e1b925",
+          "sha1": "ad96dd1333d599322cced59034c9b6235e83466e",
+          "md5": "d39efa11562e1b3f9496d899260cbb09"
+        }
+      ]
+    }
+  ]
+}

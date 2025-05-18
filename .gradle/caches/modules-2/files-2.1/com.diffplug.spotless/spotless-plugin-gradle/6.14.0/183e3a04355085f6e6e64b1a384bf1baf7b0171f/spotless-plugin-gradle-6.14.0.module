@@ -1,0 +1,178 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.diffplug.spotless",
+    "module": "spotless-plugin-gradle",
+    "version": "6.14.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.diffplug.spotless",
+          "module": "spotless-lib",
+          "version": {
+            "requires": "2.33.0"
+          }
+        },
+        {
+          "group": "com.diffplug.spotless",
+          "module": "spotless-lib-extra",
+          "version": {
+            "requires": "2.33.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spotless-plugin-gradle-6.14.0.jar",
+          "url": "spotless-plugin-gradle-6.14.0.jar",
+          "size": 131102,
+          "sha512": "7357eb6a2118810749c72d2517fc339e6a8deee84e41aa3e0101fd2868a47e0ec1475d4417ee9f5ec552486386e5c27ad4fa945b086b18d86258356498181801",
+          "sha256": "0514f99023d0b0478ba55ea57e8f19c4dba4c087bbce7d0b849e3ee84833ef67",
+          "sha1": "602d959f558f2e45764503fadc2336dec830def5",
+          "md5": "4c4700580d37dbc0314f5205d2b6a968"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.diffplug.durian",
+          "module": "durian-core",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.diffplug.durian",
+          "module": "durian-io",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.diffplug.durian",
+          "module": "durian-collect",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.eclipse.jgit",
+          "module": "org.eclipse.jgit",
+          "version": {
+            "requires": "5.13.1.202206130422-r"
+          }
+        },
+        {
+          "group": "com.diffplug.spotless",
+          "module": "spotless-lib",
+          "version": {
+            "requires": "2.33.0"
+          }
+        },
+        {
+          "group": "com.diffplug.spotless",
+          "module": "spotless-lib-extra",
+          "version": {
+            "requires": "2.33.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "spotless-plugin-gradle-6.14.0.jar",
+          "url": "spotless-plugin-gradle-6.14.0.jar",
+          "size": 131102,
+          "sha512": "7357eb6a2118810749c72d2517fc339e6a8deee84e41aa3e0101fd2868a47e0ec1475d4417ee9f5ec552486386e5c27ad4fa945b086b18d86258356498181801",
+          "sha256": "0514f99023d0b0478ba55ea57e8f19c4dba4c087bbce7d0b849e3ee84833ef67",
+          "sha1": "602d959f558f2e45764503fadc2336dec830def5",
+          "md5": "4c4700580d37dbc0314f5205d2b6a968"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spotless-plugin-gradle-6.14.0-javadoc.jar",
+          "url": "spotless-plugin-gradle-6.14.0-javadoc.jar",
+          "size": 537702,
+          "sha512": "78cea8785c93250961b0e71c4cfc63b705205dda6a98ceb1f434f789eef39ebf43a9be48ffe1dde6d75287a917ce51b172464254870c4a5b0c21355bd9ed699a",
+          "sha256": "0fb64f3e6344a8f0bfcf449b054978c4ecb62e160fc9aa38f0730201b2c354ea",
+          "sha1": "240773b91ec8dcab2949d01ed416bebae781e78b",
+          "md5": "0eeacbaeed76fa0a25d5c484d5513972"
+        },
+        {
+          "name": "spotless-plugin-gradle-6.14.0-javadoc.jar",
+          "url": "spotless-plugin-gradle-6.14.0-javadoc.jar",
+          "size": 537702,
+          "sha512": "78cea8785c93250961b0e71c4cfc63b705205dda6a98ceb1f434f789eef39ebf43a9be48ffe1dde6d75287a917ce51b172464254870c4a5b0c21355bd9ed699a",
+          "sha256": "0fb64f3e6344a8f0bfcf449b054978c4ecb62e160fc9aa38f0730201b2c354ea",
+          "sha1": "240773b91ec8dcab2949d01ed416bebae781e78b",
+          "md5": "0eeacbaeed76fa0a25d5c484d5513972"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spotless-plugin-gradle-6.14.0-sources.jar",
+          "url": "spotless-plugin-gradle-6.14.0-sources.jar",
+          "size": 63334,
+          "sha512": "4042ce16bf7f15bb0dc3389d8c6ac7fca90c6c2d1702b978d3b09fa25cf16a6367892639629d7c06cc90c78dfe297343847b82bc11ae35f388f79c2c76f6d28d",
+          "sha256": "8cd8c3d9ff316e7902171c54e9a9d4865ef7d3641ce6d9b0a7b1c762a51a207a",
+          "sha1": "1835149ea5d7f30d885cc05720773b513a656ebb",
+          "md5": "7c3770e4d8dc3bb4910457b2af83cb23"
+        },
+        {
+          "name": "spotless-plugin-gradle-6.14.0-sources.jar",
+          "url": "spotless-plugin-gradle-6.14.0-sources.jar",
+          "size": 63334,
+          "sha512": "4042ce16bf7f15bb0dc3389d8c6ac7fca90c6c2d1702b978d3b09fa25cf16a6367892639629d7c06cc90c78dfe297343847b82bc11ae35f388f79c2c76f6d28d",
+          "sha256": "8cd8c3d9ff316e7902171c54e9a9d4865ef7d3641ce6d9b0a7b1c762a51a207a",
+          "sha1": "1835149ea5d7f30d885cc05720773b513a656ebb",
+          "md5": "7c3770e4d8dc3bb4910457b2af83cb23"
+        }
+      ]
+    }
+  ]
+}

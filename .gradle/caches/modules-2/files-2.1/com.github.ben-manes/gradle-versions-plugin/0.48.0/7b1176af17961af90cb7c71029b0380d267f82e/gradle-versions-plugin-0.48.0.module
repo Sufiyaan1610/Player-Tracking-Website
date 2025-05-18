@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.ben-manes",
+    "module": "gradle-versions-plugin",
+    "version": "0.48.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "gradle-versions-plugin-0.48.0.jar",
+          "url": "gradle-versions-plugin-0.48.0.jar",
+          "size": 165691,
+          "sha512": "50fa0985202c1ec2eb45d1b1c8f062484da6c2a480f31fd5c0bf24b2163194857a9982f5e7d8a3c8a875d1012b40e876937cd23c54f7ab0f2f2cd004b99b4191",
+          "sha256": "8f36595e899d17efa7af3173d6b496ff5510cb0519f4589ca505373336da820c",
+          "sha1": "ff8992bc05720530f9711d668374893b0878e206",
+          "md5": "309aff645846ed3e9bb45e5b649a3e04"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.8.20"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-kotlin",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "com.thoughtworks.xstream",
+          "module": "xstream",
+          "version": {
+            "requires": "1.4.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gradle-versions-plugin-0.48.0.jar",
+          "url": "gradle-versions-plugin-0.48.0.jar",
+          "size": 165691,
+          "sha512": "50fa0985202c1ec2eb45d1b1c8f062484da6c2a480f31fd5c0bf24b2163194857a9982f5e7d8a3c8a875d1012b40e876937cd23c54f7ab0f2f2cd004b99b4191",
+          "sha256": "8f36595e899d17efa7af3173d6b496ff5510cb0519f4589ca505373336da820c",
+          "sha1": "ff8992bc05720530f9711d668374893b0878e206",
+          "md5": "309aff645846ed3e9bb45e5b649a3e04"
+        }
+      ]
+    }
+  ]
+}

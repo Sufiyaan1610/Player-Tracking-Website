@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.scoverage</groupId>
+  <artifactId>gradle-scoverage</artifactId>
+  <version>8.0.3</version>
+  <name>GradleScoverage</name>
+  <description>gradle-scoverage is a Gradle plugin for calculating code coverage using Scoverage</description>
+  <url>http://scoverage.org</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>maiflai</id>
+    </developer>
+    <developer>
+      <id>ubourdon</id>
+    </developer>
+    <developer>
+      <id>D-Roch</id>
+    </developer>
+    <developer>
+      <id>eyalroth</id>
+    </developer>
+  </developers>
+  <scm>
+    <developerConnection>scm:git:https://github.com/scoverage/gradle-scoverage.git</developerConnection>
+    <url>scm:git:https://github.com/scoverage/gradle-scoverage.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>2.6</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
